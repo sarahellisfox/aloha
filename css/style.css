@@ -613,154 +613,111 @@ display: none;
   text-transform: none;
   }
 
-  } 
+} 
 
 /* Desktop */
 
 @media only screen and (min-width: 1240px) {
 
-/* Header and Navigation Section - Desktop */ 
+  /* Header & Navigation Section - Desktop */ 
 
-.header-container {
-width: 100%; 
-display: flex;
-flex-flow: row;
-padding: 2em; 
-margin: 0;
-}
+  .header-container {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  }
 
-.logo-wrapper {
-width: 25%; 
-padding-left: 10px;
-text-align: left;
-}
+  .logo-img {
+  width: 160px;
+  }
 
-.logo-img {
-width: em;
-}
+  .nav-wrapper {
+  padding-top: 1em;
+  }
 
-.nav-wrapper {
-order: 1; 
-width: 50%; 
-}
+  .nav-wrapper li {
+    font-size: 16px;
+  }
 
-.nav-wrapper li {
-display: inline-flex;
-font-size: 16px;
-text-transform: uppercase;
-padding: 5px 25px;
+  .cart-icon {
+  width: 62px; 
+  }
+
+  /* Banner Section - Desktop  */
+
+  .banner-wrapper {
+  display: flex; 
+  width: 100%; 
+  }
+
+  .banner-container {
+  height: 35em;
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)),
+      url(../images/banner-girl.png) no-repeat center 4em,
+      url(../images/flower-bkgd.jpg) repeat-x top;
+  background-size: cover, 18%, contain;
+  }
+  
+  .banner-upper-text {
+  font-size: 20px;
+  }
+  
+  .banner-bottom-text {
+  font-size: 64px; 
+  }
+
+  /* About - Desktop */ 
+
+  .about-container {
+  max-width: 50%; 
+  margin-top: 9em;
+  }
+      
+  .about-information {
+  font-size: 18px; 
+  }
+
+  /* Shop - Desktop  */ 
+
+  .shop-container {
+  font-size: 1.5em;
+  }
+
+  .shop-container div {
+  height: 400px; 
+  }
+
+  /* Featured - Desktop */ 
+
+  .carousel-cell {
+    width: 25%; 
+  }
+
+  /* Updates - Desktop */ 
+
+  .updates-container {
+  height: 50vh;
+  }
+
+  .updates-information {
+  padding: 0 12em;
+  text-align: center
+  }
+
+  .subForm {
+  width: 35%; 
+  border: none;
+  }
+  
+  /* Footer - Desktop */ 
+  
+  .footer-container {
+    padding: 4em 3em;
+  }
+
 } 
 
-.cart-wrapper {
-width: 25%; 
-padding-right: 0px;
-text-align: right;
-}
 
-.cart-icon {
-width: 3.5em; 
-}
 
-/* Banner Section - Desktop  */
-
-.banner-wrapper {
-display: flex; 
-width: 100%; 
-}
-
-.banner-container {
-display: flex;
-width: 100%; 
-height: 30em;
-background: linear-gradient(to bottom,
-    rgba(0, 0, 0, 0.25),
-    rgba(0, 0, 0, 0.25)),
-     url(../images/banner-girl.png) no-repeat center 3em,
-     url(../images/flower-bkgd.jpg) repeat-x center;
-background-size: cover, contain, cover;
-margin-bottom: 5em;
-}
- 
-.banner-upper-text {
-font-size: 20px;
-}
- 
-.banner-bottom-text {
-font-size: 4em; 
-}
-
-/* About Section - Desktop */ 
-
-.about-container {
-max-width: 100%; 
-text-align: center;
-margin-top: 5em;
-}
-    
-.about-information {
-width: 100%; 
-text-align: center;
-font-size: 1.25em; 
-margin-top: 1em;
-padding: 0 7em;
-line-height: 2em;
-}
-
-/* Shop Section - Desktop  */ 
-
-.shop-container {
-font-size: 2em;
-}
-
-.shop-container div {
-height: 40vh; 
-}
-
-.shop-text-lg-img {
-padding: 13vh 0 0 0;
-text-align: center; 
-}
-
-.shop-text-sm-img {
-padding: 13vh 0 0 0;
-text-align: center; 
-}
-
-/* Updates Section - Desktop */ 
-
-.updates-container {
-height: 50vh;
-}
-
-.updates-information {
-padding: 0 12em;
-text-align: center
-}
-
-.subForm {
-width: 35%; 
-display: inline-flex;
-justify-content: space-between; 
-text-align: center;
-border-radius: 25px; 
-padding: 1px; 
-margin-top: 50px; 
-background-color: white;
-font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
-}
-
-#email {
-font-size: 14px; 
-margin: 10px 10px 10px 15px;
-}
-
-#submit {
-background-color: #e2574c;
-color: white; 
-font-size: 14px; 
-border-radius: 25px; 
-margin: 2px; 
-padding: .5rem 1.5rem; 
-} */
-
-}
