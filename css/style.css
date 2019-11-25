@@ -138,7 +138,6 @@ color: #e2574c;
 font-size: 0.8em;     
 }
 
-
 .updates-container {
 text-align: center; 
 color: white; 
@@ -265,6 +264,7 @@ margin-top: 1em;
 /* Shop  */ 
 
 .shop-container {
+width: 100%; 
 display: flex;
 flex-wrap: wrap; 
 list-style: none; 
@@ -444,129 +444,61 @@ display: none;
 
 @media only screen and (min-width: 600px) {
 
-/* Header & Navigation */ 
+  /* Header & Navigation - Tablet */ 
 
-.header-container {
-display: grid;
-grid-template-columns: [first] 20% auto [last] 20%;
-margin: 0 auto; 
-margin: 0.25em 0; 
-}
-
-.nav-wrapper { 
-border: none;
-} 
-
-.logo-img {
-width: 8em;
-}
-
-.cart-wrapper {
-order: 1; 
-text-align: right; 
-}
-
-/* Banner */
-
-.banner-wrapper {
-height: 400px; 
-}  
-
-.banner-container {
-  background-size: cover, 20%, cover;
-}
-
-.banner-upper-text {
-  font-size: 1.25em;
+  .header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto; 
+  margin: 0.25em 0; 
   }
 
-.banner-bottom-text {
-  font-size: 3em; 
-}
+  .nav-wrapper { 
+  border: none;
+  padding-right: 72px;
+  } 
 
-/* About Section - Tablet */ 
+  .logo-img {
+  width: 8em;
+  }
 
-.about-container {
-max-width: 90%; 
-}
-    
-.italicized-h2, .bold-h2 {
-font-size: 2.5em;
-line-height: 1.5em; 
-}
-        
-.about-information {
-text-align: justify;
-text-align-last: center;
-font-size: 1.25em; 
-}
+  .cart-wrapper {
+  order: 1; 
+  text-align: right; 
+  }
 
-/* Shop Section - Mobile  */ 
+  /* Banner */
 
-.shop-container {
-max-width: 100%; 
-margin: 0; 
-padding: 0;
-display: flex;
-flex-wrap: wrap; 
+  .banner-wrapper {
+  height: 400px; 
+  }  
 
-list-style: none; 
+  .banner-container {
+    background-size: cover, 20%, cover;
+  }
 
-text-transform: uppercase; 
-font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
-font-size: 1.5em;
-text-align: center;
-color: white; 
-} 
+  .banner-upper-text {
+    font-size: 1.25em;
+    }
 
-.mens-1 {  
-width: 50%; 
-height: 20vh; 
-border-bottom: 5px solid white;
-}
- 
-.trends-2 {
-width: 25%; 
-height: 20vh; 
-border: none;  
-border-bottom: 5px solid white;
-border-left: 5px solid white; 
-} 
-    
-.glasses-3 {  
-width: 25%; 
-height: 20vh; 
-border: none; 
-border-bottom: 5px solid white;
-border-left: 5px solid white; 
-} 
-    
-.sale-4 {
-width: 25%; 
-height: 20vh; 
-}
-    
-.bag-5 {
-width: 25%; 
-height: 20vh;
-border-left: 5px solid white; 
-}
-    
-.women-6 {
-width: 50%; 
-height: 20vh;
-border-left: 5px solid white; 
-}
+  .banner-bottom-text {
+    font-size: 3em; 
+  }
 
-.shop-text-lg-img {
-padding: 8vh 0 0 0;
-text-align: center; 
-}
+  /* About - Tablet */ 
 
-.shop-text-sm-img {
-padding: 8vh 0 0 0;
-text-align: center; 
-}
+  .about-container {
+  max-width: 90%; 
+  }
+      
+  .italicized-h2, .bold-h2 {
+  font-size: 2.5em;
+  line-height: 1.5em; 
+  }
+          
+  .about-information {
+  font-size: 1.25em; 
+  }
 
 /* Featured Section - Tablet */
 
