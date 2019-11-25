@@ -1,0 +1,818 @@
+/* CSS BOX RESET CODE */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+/* END OF BOX RESET CODE */ 
+
+/* SCREEN READER */ 
+
+.screen-reader-text {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
+
+/**********************/ 
+
+/* Page Style */ 
+
+html {
+  scroll-behavior: smooth; 
+}
+
+img {
+  max-width: 100%; 
+  margin: 0 auto;
+}
+
+a {
+color: inherit; /* blue colors for links too */
+text-decoration: inherit; 
+} 
+
+a:hover {
+color: #b64036; 
+}
+
+/**********************/ 
+
+/*** Typography ***/ 
+
+h1, h2, h3{
+font-family: "Playfair Display", serif;
+font-weight: normal;
+}
+
+p {
+font-family: 'Raleway', sans-serif;
+color: #2d2d2d; 
+line-height: 2em;
+font-size: 14px;
+}
+
+li {
+font-family: 'Raleway-Light', Arial, sans-serif;
+color: #e2574c; 
+font-size: 14px;
+text-transform: uppercase;
+}
+
+.banner-upper-text, .banner-bottom-text, .shop-container, .updates-information, .footer-text {
+color: white; 
+}
+
+.banner-upper-text, .banner-bottom-text {
+text-shadow: 3px 3px 5px hsla(0,0%,39%,.8);
+}
+
+.banner-upper-text {
+font-family: 'Raleway-Light', sans-serif;
+text-transform: uppercase; 
+}
+
+.banner-bottom-text {
+font-size: 2.25em; 
+text-align: center;
+}
+
+.italicized-h2, .bold-h2 {
+font-size: 2em;
+line-height: 1.25em; 
+}
+
+.italicized-h2 {
+font-style: italic; 
+}
+  
+.bold-h2 {
+font-weight: bold;
+}
+
+.about-information {
+text-align: justify;
+text-align-last: center;
+font-size: 14px; 
+font-weight: lighter;
+}
+
+.shop-container h3 {
+font-family: 'Raleway-Web', sans-serif;
+text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
+text-transform: uppercase; 
+font-size: 1.5em;
+text-align: center;
+} 
+
+.footer-text {
+font-family: "Playfair Display", serif;
+font-size: 0.875em; 
+}
+
+.featured-text-container {
+text-align: center; 
+}
+
+.product-catagory, .price {
+font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
+color: #969696;
+}
+
+.product-catagory {
+text-transform: uppercase; 
+font-size: 0.7em; 
+}
+
+.product-name {
+font-family: 'Playfair Display', Times, serif; 
+font-size: 1.5em;
+color: #e2574c; 
+}
+
+.price {
+font-size: 0.8em;     
+}
+
+
+.updates-container {
+text-align: center; 
+color: white; 
+text-shadow: 3px 3px 5px hsla(0,0%,39%,.8);
+padding: 3em 1em; 
+}
+
+.updates-information {
+font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
+text-align: justify;
+text-align-last: center;
+font-size: 1em; 
+line-height: 1.5em;
+}
+
+.subForm {
+text-align: center;
+background-color: white;
+font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
+}
+
+#email {
+font-size: 14px; 
+}
+
+#submit {
+background-color: #e2574c;
+color: white; 
+font-size: 14px; 
+}
+
+.footer-container {
+color: #FFFFFF; 
+text-align: center;  
+line-height: 1.5;
+}
+    
+.gray-footer-text {
+color: #8D8D8D; 
+}
+
+.footer-social-media li {
+color: #FFFFFF;
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 600px) {
+
+
+}
+
+/**********************/ 
+
+/* Header & Navigation */ 
+
+.header-container {
+max-width: 1240px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 1em 0.5em;
+}
+
+.logo-img {
+width: 7.5em;
+}
+
+.nav-wrapper {
+order: 1; 
+padding-top: 0.5em;
+margin-top: 0.5em;
+border-top: 1px solid #d7d7d7;
+}
+
+.nav-wrapper li {
+display: inline-flex;
+padding: 5px 14px;
+} 
+
+.cart-icon {
+width: 3em; 
+}
+
+/* Banner */
+
+.banner-container {
+display: flex;
+width: 100%; 
+height: 25em;
+background: linear-gradient(to bottom,
+   rgba(0, 0, 0, 0.25),
+   rgba(0, 0, 0, 0.25)),
+    url('../images/banner-girl.png') no-repeat center 4em,
+    url('../images/flower-bkgd.jpg') no-repeat center;
+background-size: cover, 40%, cover;
+flex-direction: column;
+justify-content: center; 
+align-items: center; 
+overflow: hidden; 
+}
+
+.banner-upper-text, .banner-bottom-text {
+padding: 0 3em;
+}
+
+.banner-upper-text {
+margin-bottom: 0.75em;
+}
+
+/* About */ 
+
+.about-container {
+max-width: 85%; 
+text-align: center; 
+margin: 0 auto; 
+padding: 3em 0; 
+}
+  
+.about-information {
+margin-top: 1em;
+}
+
+/* Shop  */ 
+
+.shop-container {
+display: flex;
+flex-wrap: wrap; 
+list-style: none; 
+} 
+
+.shop-text-lg-img {
+width: 100%; 
+height: 30vh; 
+}
+
+.shop-text-sm-img {
+width: 50%; 
+height: 30vh; 
+}
+
+.mens-1 {
+background: linear-gradient(to bottom,
+rgba(0, 0, 0, 0.25),
+rgba(0, 0, 0, 0.25)),
+url(../images/mens-category.jpg) no-repeat center;
+background-size: cover;
+border-bottom: 5px solid white;
+}
+  
+.trends-2 {
+background: linear-gradient(to bottom,
+rgba(0, 0, 0, 0.25),
+rgba(0, 0, 0, 0.25)),
+url(../images/trends-category.jpg) no-repeat center;  
+background-size: cover;
+border-right: 2.5px solid white;
+} 
+  
+.glasses-3 {
+background: linear-gradient(to bottom,
+rgba(0, 0, 0, 0.25),
+rgba(0, 0, 0, 0.25)),
+url(../images/glasses-category.jpg) no-repeat center;
+background-size: cover;
+border-left: 2.5px solid white;
+} 
+  
+.sale-4 {
+background: linear-gradient(to bottom,
+rgba(0, 0, 0, 0.25),
+rgba(0, 0, 0, 0.25)),
+url(../images/sale-category.jpg) no-repeat center;   
+background-size: cover;
+border-right: 2.5px solid white;
+border-top: 5px solid white; 
+}
+  
+.bag-5 {
+background: linear-gradient(to bottom,
+rgba(0, 0, 0, 0.25),
+rgba(0, 0, 0, 0.25)),
+url(../images/bags-category.jpg) no-repeat center;  
+background-size: cover;
+border-left: 2.5px solid white;
+border-top: 5px solid white; 
+}
+  
+.women-6 {
+background: linear-gradient(to bottom,
+rgba(0, 0, 0, 0.25),
+rgba(0, 0, 0, 0.25)),
+url(../images/womens-category.jpg) no-repeat center; 
+background-size: cover;
+width: 100%; 
+height: 30vh;
+border-top: 5px solid white;
+}
+
+.shop-text-lg-img {
+padding: 13vh 0 0 0;
+text-align: center; 
+}
+
+.shop-text-sm-img {
+padding: 13vh 0 0 0;
+text-align: center; 
+}
+
+.price {
+padding-bottom: 2em; 
+}
+
+/* Featured */
+
+.featured-text-container {
+padding: 3em 1em; 
+}
+
+.flickity-container {
+box-sizing: border-box;
+width: 100%; 
+background: white; 
+padding-top: 3em;
+}
+
+.main-carousel {
+display: block; 
+text-align: center; 
+}
+
+.carousel-cell {
+width: 100%;
+text-align: center;
+}
+
+.product-catagory, .product-name {
+padding-bottom: 1em;
+}
+
+/* Updates */ 
+
+.updates-container {
+padding: 3em 1em; 
+background: linear-gradient(to bottom,
+rgba(0, 0, 0, 0.25),
+rgba(0, 0, 0, 0.25)),
+url(../images/wave-bkgd.jpg) no-repeat bottom; 
+width: 100%; 
+height: 50vh;
+margin-top: 3em;
+}
+
+.updates-information {
+margin-top: 1em;
+}
+
+.subForm {
+width: 90%; 
+display: inline-flex;
+justify-content: space-between; 
+border-radius: 25px; 
+padding: 1px; 
+margin-top: 50px; 
+background-color: white;
+}
+
+#email {
+margin: 10px 10px 10px 15px;
+}
+
+#submit {
+background-color: #e2574c;
+border-radius: 25px; 
+margin: 2px; 
+padding: .5rem 1.5rem; 
+}
+
+/* Footer */
+
+.footer-container {
+background-color: #242424; 
+color: #FFFFFF; 
+display: flex; 
+flex-direction: column; 
+padding-top: 4em; 
+}
+
+.footer-text {
+padding-bottom: 5vh; 
+}
+  
+.footer-social-media li {
+display: inline-block;
+padding: 0 0.5em 4em 0.5em; 
+}
+
+.social-name {
+display: none; 
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 600px) {
+
+/* Header & Navigation */ 
+
+.header-container {
+display: grid;
+grid-template-columns: [first] 20% auto [last] 20%;
+margin: 0 auto; 
+margin: 0.25em 0; 
+}
+
+.nav-wrapper { 
+border: none;
+} 
+
+.logo-img {
+width: 8em;
+}
+
+.cart-wrapper {
+order: 1; 
+text-align: right; 
+}
+
+/* Banner */
+
+.banner-wrapper {
+height: 400px; 
+}  
+
+.banner-container {
+  background-size: cover, 20%, cover;
+}
+
+.banner-upper-text {
+  font-size: 1.25em;
+  }
+
+.banner-bottom-text {
+  font-size: 3em; 
+}
+
+/* About Section - Tablet */ 
+
+.about-container {
+max-width: 90%; 
+}
+    
+.italicized-h2, .bold-h2 {
+font-size: 2.5em;
+line-height: 1.5em; 
+}
+        
+.about-information {
+text-align: justify;
+text-align-last: center;
+font-size: 1.25em; 
+}
+
+/* Shop Section - Mobile  */ 
+
+.shop-container {
+max-width: 100%; 
+margin: 0; 
+padding: 0;
+display: flex;
+flex-wrap: wrap; 
+
+list-style: none; 
+
+text-transform: uppercase; 
+font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+text-align: center;
+color: white; 
+} 
+
+.mens-1 {  
+width: 50%; 
+height: 20vh; 
+border-bottom: 5px solid white;
+}
+ 
+.trends-2 {
+width: 25%; 
+height: 20vh; 
+border: none;  
+border-bottom: 5px solid white;
+border-left: 5px solid white; 
+} 
+    
+.glasses-3 {  
+width: 25%; 
+height: 20vh; 
+border: none; 
+border-bottom: 5px solid white;
+border-left: 5px solid white; 
+} 
+    
+.sale-4 {
+width: 25%; 
+height: 20vh; 
+}
+    
+.bag-5 {
+width: 25%; 
+height: 20vh;
+border-left: 5px solid white; 
+}
+    
+.women-6 {
+width: 50%; 
+height: 20vh;
+border-left: 5px solid white; 
+}
+
+.shop-text-lg-img {
+padding: 8vh 0 0 0;
+text-align: center; 
+}
+
+.shop-text-sm-img {
+padding: 8vh 0 0 0;
+text-align: center; 
+}
+
+/* Featured Section - Tablet */
+
+.featured-text-container {
+text-align: center; 
+padding: 3em 1em; 
+}
+
+.flickity-container {
+box-sizing: border-box;
+width: 100%; 
+background: white; 
+padding-top: 3em;
+}
+
+.main-carousel {
+display: block; 
+text-align: center; 
+}
+
+.carousel-cell {
+width: 100%;
+text-align: center;
+}
+
+.product-catagory {
+font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
+text-transform: uppercase; 
+font-size: 0.7em; 
+color: #969696;
+padding-bottom: 1em; 
+}
+
+.product-name {
+font-family: 'Playfair Display', Times, serif; 
+font-size: 1.5em;
+color: #e2574c; 
+padding-bottom: 1em;
+}
+
+.price {
+font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
+color: #969696;
+font-size: 0.8em; 
+  
+}
+
+/* Updates Section - Tablet */ 
+
+.updates-container {
+text-align: center; 
+height: 35vh;
+
+}
+.updates-information {
+font-size: 1.25em; 
+align-content: center;
+padding: 0 1.5em; 
+}
+
+.subForm {
+width: 75%; 
+}
+
+/* Footer Section - Tablet */
+
+.footer-container {
+display: flex; 
+flex-flow: row;
+justify-content: space-between;
+max-width: 100%; 
+padding: 5em 4em;
+font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
+}
+
+.footer-text {
+padding-bottom: 0; 
+text-align: left;
+}
+
+.footer-social-media {
+display: flex; 
+flex-flow: column;
+}
+
+.footer-social-media li {
+line-height: 1em;
+padding: 0.5em;
+margin: 0;
+text-align: left;
+}
+
+.social-name {
+display: inline; 
+padding: 10px;
+color: white; 
+}
+
+} 
+
+/* Desktop */
+
+@media only screen and (min-width: 1240px) {
+
+/* Header and Navigation Section - Desktop */ 
+
+.header-container {
+width: 100%; 
+display: flex;
+flex-flow: row;
+padding: 2em; 
+margin: 0;
+}
+
+.logo-wrapper {
+width: 25%; 
+padding-left: 10px;
+text-align: left;
+}
+
+.logo-img {
+width: em;
+}
+
+.nav-wrapper {
+order: 1; 
+width: 50%; 
+}
+
+.nav-wrapper li {
+display: inline-flex;
+font-size: 16px;
+text-transform: uppercase;
+padding: 5px 25px;
+} 
+
+.cart-wrapper {
+width: 25%; 
+padding-right: 0px;
+text-align: right;
+}
+
+.cart-icon {
+width: 3.5em; 
+}
+
+/* Banner Section - Desktop  */
+
+.banner-wrapper {
+display: flex; 
+width: 100%; 
+}
+
+.banner-container {
+display: flex;
+width: 100%; 
+height: 30em;
+background: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.25)),
+     url(../images/banner-girl.png) no-repeat center 3em,
+     url(../images/flower-bkgd.jpg) repeat-x center;
+background-size: cover, contain, cover;
+margin-bottom: 5em;
+}
+ 
+.banner-upper-text {
+font-size: 20px;
+}
+ 
+.banner-bottom-text {
+font-size: 4em; 
+}
+
+/* About Section - Desktop */ 
+
+.about-container {
+max-width: 100%; 
+text-align: center;
+margin-top: 5em;
+}
+    
+.about-information {
+width: 100%; 
+text-align: center;
+font-size: 1.25em; 
+margin-top: 1em;
+padding: 0 7em;
+line-height: 2em;
+}
+
+/* Shop Section - Desktop  */ 
+
+.shop-container {
+font-size: 2em;
+}
+
+.shop-container div {
+height: 40vh; 
+}
+
+.shop-text-lg-img {
+padding: 13vh 0 0 0;
+text-align: center; 
+}
+
+.shop-text-sm-img {
+padding: 13vh 0 0 0;
+text-align: center; 
+}
+
+/* Updates Section - Desktop */ 
+
+.updates-container {
+height: 50vh;
+}
+
+.updates-information {
+padding: 0 12em;
+text-align: center
+}
+
+.subForm {
+width: 35%; 
+display: inline-flex;
+justify-content: space-between; 
+text-align: center;
+border-radius: 25px; 
+padding: 1px; 
+margin-top: 50px; 
+background-color: white;
+font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
+}
+
+#email {
+font-size: 14px; 
+margin: 10px 10px 10px 15px;
+}
+
+#submit {
+background-color: #e2574c;
+color: white; 
+font-size: 14px; 
+border-radius: 25px; 
+margin: 2px; 
+padding: .5rem 1.5rem; 
+} */
+
+}
