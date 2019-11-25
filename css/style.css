@@ -106,7 +106,6 @@ font-family: 'Raleway-Web', sans-serif;
 text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 text-transform: uppercase; 
 font-size: 1.5em;
-text-align: center;
 } 
 
 .footer-text {
@@ -181,13 +180,6 @@ color: #8D8D8D;
 
 .footer-social-media li {
 color: #FFFFFF;
-}
-
-/* Tablet */
-
-@media only screen and (min-width: 600px) {
-
-
 }
 
 /**********************/ 
@@ -384,8 +376,8 @@ padding-bottom: 1em;
 .updates-container {
 padding: 3em 1em; 
 background: linear-gradient(to bottom,
-rgba(0, 0, 0, 0.25),
-rgba(0, 0, 0, 0.25)),
+rgba(0, 0, 0, 0.15),
+rgba(0, 0, 0, 0.15)),
 url(../images/wave-bkgd.jpg) no-repeat bottom; 
 width: 100%; 
 height: 50vh;
@@ -500,104 +492,128 @@ display: none;
   font-size: 1.25em; 
   }
 
-/* Featured Section - Tablet */
+  /* Shop - Tablet */
 
-.featured-text-container {
-text-align: center; 
-padding: 3em 1em; 
-}
+  .shop-text-lg-img, .shop-text-sm-img {
+  height: 190px;
+  padding: 5em 0;
+  }
 
-.flickity-container {
-box-sizing: border-box;
-width: 100%; 
-background: white; 
-padding-top: 3em;
-}
+  .shop-text-lg-img {
+    width: 50%; 
+  }
 
-.main-carousel {
-display: block; 
-text-align: center; 
-}
+  .shop-text-sm-img {
+    width: 25%; 
+  }
 
-.carousel-cell {
-width: 100%;
-text-align: center;
-}
+  .mens-1 {
+    border-right: 5px white solid;
+    border-bottom: 0;
+  }
 
-.product-catagory {
-font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
-text-transform: uppercase; 
-font-size: 0.7em; 
-color: #969696;
-padding-bottom: 1em; 
-}
+  .women-6 {
+    border-left: 5px white solid;
+  }
 
-.product-name {
-font-family: 'Playfair Display', Times, serif; 
-font-size: 1.5em;
-color: #e2574c; 
-padding-bottom: 1em;
-}
+  /* Featured - Tablet */
 
-.price {
-font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
-color: #969696;
-font-size: 0.8em; 
-  
-}
+  .featured-text-container {
+  text-align: center; 
+  padding: 3em 1em; 
+  }
 
-/* Updates Section - Tablet */ 
+  .flickity-container {
+  box-sizing: border-box;
+  width: 100%; 
+  background: white; 
+  padding-top: 3em;
+  }
 
-.updates-container {
-text-align: center; 
-height: 35vh;
+  .main-carousel {
+  display: block; 
+  text-align: center; 
+  }
 
-}
-.updates-information {
-font-size: 1.25em; 
-align-content: center;
-padding: 0 1.5em; 
-}
+  .carousel-cell {
+  width: 50%;
+  text-align: center;
+  }
 
-.subForm {
-width: 75%; 
-}
+  .product-catagory {
+  font-size: 0.7em; 
+  padding-bottom: 1em; 
+  }
 
-/* Footer Section - Tablet */
+  .product-name {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  }
 
-.footer-container {
-display: flex; 
-flex-flow: row;
-justify-content: space-between;
-max-width: 100%; 
-padding: 5em 4em;
-font-family: 'Raleway Light', Arial, Helvetica, sans-serif;
-}
+  .price {
+  font-size: 0.8em;  
+  }
 
-.footer-text {
-padding-bottom: 0; 
-text-align: left;
-}
+  /* Updates - Tablet */ 
 
-.footer-social-media {
-display: flex; 
-flex-flow: column;
-}
+  .updates-container {
+  text-align: center; 
+  height: 35vh;
+  padding-bottom: 0;
+  }
 
-.footer-social-media li {
-line-height: 1em;
-padding: 0.5em;
-margin: 0;
-text-align: left;
-}
+  .updates-information {
+  font-size: 1.25em; 
+  align-content: center;
+  padding: 0 1.5em; 
+  }
 
-.social-name {
-display: inline; 
-padding: 10px;
-color: white; 
-}
+  .subForm {
+  width: 60%; 
+  }
 
-} 
+  /* Footer - Tablet */
+
+  .footer-container {
+  display: flex; 
+  flex-flow: row;
+  justify-content: space-between;
+  max-width: 100%; 
+  padding: 3em 2em;
+  }
+
+  .footer-text {
+  padding-bottom: 0; 
+  text-align: left;
+  }
+
+  .footer-text, .social-name {
+    font-size: 16px;
+  }
+
+  .footer-social-media {
+  padding-top: 2em;
+  display: flex; 
+  flex-flow: column;
+  }
+
+  .footer-social-media li {
+  line-height: 1.5em;
+  padding: 0.5em;
+  margin: 0;
+  text-align: left;
+  font-weight: lighter;
+  }
+
+  .social-name {
+  font-family: 'Raleway-Web', sans-serif;
+  display: inline; 
+  padding: 10px;
+  color: white; 
+  text-transform: none;
+  }
+
+  } 
 
 /* Desktop */
 
