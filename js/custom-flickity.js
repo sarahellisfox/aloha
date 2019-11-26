@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     cellAlign: 'left',
     wrapAround: true,
     freeScroll: true, 
-    prevNextButtons: false
+    prevNextButtons: false, 
     });
 
 });

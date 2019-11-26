@@ -15,9 +15,9 @@ This page was built as the first project of the Web Development Program at RED A
 Click on the link above and the site will load. 
  
 ## Screenshots
-![alt text](aloha-banner.png)
+![Aloha site banner](aloha-banner.png)
 
-![alt text](aloha.png)
+![gif of featured clothing](aloha.gif)
  
-![alt text](aloha-sign-up.png)
+![image of sign up section](aloha-sign-up.png)
 
