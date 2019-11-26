@@ -630,7 +630,7 @@ display: none;
   }
 
   .white-fixed-wrap, .header-container {
-    /* position: fixed; */
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
